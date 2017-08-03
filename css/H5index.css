@@ -209,7 +209,6 @@ html, body, .swiper-container, .swiper-wrapper, .swiper-slide {
 
 .page02 .info {
     width: 100%;
-    height: 50%;
 }
 
 .page02 .info p {
@@ -224,12 +223,13 @@ html, body, .swiper-container, .swiper-wrapper, .swiper-slide {
 
 .page02 .skull {
     width: 100%;
-    height: 50%;
+    height:50%;
     text-align: center;
     position: relative;
-
+    margin-top: .5rem;
 }
 .page02 .skull span{
+    display: block;
     opacity: 0;
 }
 .page02 .skull span:nth-child(1) {
