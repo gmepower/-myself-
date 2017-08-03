@@ -773,7 +773,21 @@ opacity: 0;
         opacity: 1;
     }
     100% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes zoomInB {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
         opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
 
