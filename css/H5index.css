@@ -209,13 +209,12 @@ html, body, .swiper-container, .swiper-wrapper, .swiper-slide {
 
 .page02 .info {
     width: 100%;
-    height: 50%;
 }
 
 .page02 .info p {
     text-align: center;
     font-size: .3rem;
-    margin-top: .4rem;
+    margin-top: .2rem;
     font-family: 微软雅黑;
     color: #ff460c;
     font-weight: 300;
@@ -223,6 +222,7 @@ html, body, .swiper-container, .swiper-wrapper, .swiper-slide {
 }
 
 .page02 .skull {
+    margin-top: .2rem;
     width: 100%;
     height: 50%;
     text-align: center;
@@ -418,7 +418,7 @@ opacity: 0;
 .page03 .right {
    margin: 1rem 1rem 0;
     text-align: left;
-    overflow-x:scroll;
+    overflow-x:auto;
     opacity: 0;
 }
 .page03 .right p{
@@ -461,8 +461,8 @@ opacity: 0;
 }
 .page04 .info{
     text-align: left;
-   margin: 1.5rem 1rem 0;
-    overflow-x: scroll;
+   margin: 1rem 1rem 0;
+    overflow-x: auto;
     opacity: 0;
 }
 .page04 .info p{
